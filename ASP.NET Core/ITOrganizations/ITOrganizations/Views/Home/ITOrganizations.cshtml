@@ -1,0 +1,22 @@
+﻿@model List<string>
+@{
+    ViewData["Title"] = "ITOrganizations";
+}
+
+<h1>ITOrganizations At Hyderabad</h1>
+
+@foreach (string item in Model)
+{
+    if (item == "Amazon")
+    {
+        <div>
+            <span><b>@item</b></span>
+        </div>
+    }
+    else
+    {
+        <div>
+            <span>@item</span>
+        </div>
+    }
+}
