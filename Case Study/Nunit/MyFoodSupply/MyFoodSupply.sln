@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFoodSupply", "MyFoodSupply\MyFoodSupply.csproj", "{53CC6B87-84E3-4CB6-87BC-3DDCAD59E6FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFoolSupply.Tests", "MyFoolSupply.Tests\MyFoolSupply.Tests.csproj", "{F55BD0DF-83D0-47FA-B89B-4D7525A9AABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53CC6B87-84E3-4CB6-87BC-3DDCAD59E6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CC6B87-84E3-4CB6-87BC-3DDCAD59E6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CC6B87-84E3-4CB6-87BC-3DDCAD59E6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CC6B87-84E3-4CB6-87BC-3DDCAD59E6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55BD0DF-83D0-47FA-B89B-4D7525A9AABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55BD0DF-83D0-47FA-B89B-4D7525A9AABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55BD0DF-83D0-47FA-B89B-4D7525A9AABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55BD0DF-83D0-47FA-B89B-4D7525A9AABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF0BB5F6-2E24-42F3-8E5E-B9DE4FA8D8D0}
+	EndGlobalSection
+EndGlobal

@@ -22,8 +22,8 @@ namespace Logging_With_Log4Net.Controllers
 
         public IActionResult Privacy()
         {
-            throw new Exception();
-            return View();
+            throw new Exception("This is Custom Exception");
+            //return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

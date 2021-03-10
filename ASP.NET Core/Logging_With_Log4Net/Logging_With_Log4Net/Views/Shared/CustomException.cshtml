@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "CustomException";
+}
+
+<h1>CustomException</h1>
+@{
+    Exception exception = ViewData["HandleException"] as Exception;
+}
+
+
+@exception.Message
