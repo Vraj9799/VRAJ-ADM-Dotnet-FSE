@@ -1,0 +1,16 @@
+.material-icons {
+  vertical-align: middle;
+}
+.card-title .material-icons {
+  vertical-align: middle;
+  font-size: 10px;
+}
+.card-subtitle .material-icons {
+  vertical-align: middle;
+  color: red;
+  font-size: 18px;
+}
+.row > .material-icons:hover {
+  color: red;
+  cursor: pointer;
+}
